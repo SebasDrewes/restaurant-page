@@ -1,0 +1,1 @@
+(()=>{"use strict";window.onload=()=>{const e=document.querySelector("#content"),t=document.createElement("h1"),n=document.createElement("img"),o=document.createElement("p");t.textContent="Pizzeria",n.src="../src/image.jpg",o.textContent="some copy about how wonderful the restaurant is",e.appendChild(t),e.appendChild(n),e.appendChild(o)}})();
