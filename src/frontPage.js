@@ -1,16 +1,17 @@
 const loadFrontPage = () => {
 
-const content = document.querySelector("#content");
-const title = document.createElement("h1");
+const dynamicZone = document.querySelector(".dynamicZone");
+while (dynamicZone.firstChild) {
+    dynamicZone.removeChild(dynamicZone.firstChild);
+}
 const image = document.createElement("img");
 const paragraph = document.createElement("p");
 
-title.textContent = "Pizzeria";
 image.src = "../src/image.jpg";
 paragraph.textContent = "some copy about how wonderful the restaurant is";
-content.appendChild(title);
-content.appendChild(image);
-content.appendChild(paragraph);
+paragraph.classList.add("paragraph");
+dynamicZone.appendChild(image);
+dynamicZone.appendChild(paragraph);
 
 }
 export {loadFrontPage}

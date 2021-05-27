@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.title {
+    color: red;
+}
+.paragraph {
+    color: blue;
+}
+.header {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+}
+.footerContent {
+    color: white;
+}
