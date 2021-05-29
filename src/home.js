@@ -19,8 +19,8 @@ const image = document.createElement("img");
 image.classList.add("image");
 const thirdParagraph = document.createElement("p");
 
-firstParagraph.textContent = "La mejor pizza de Italia";
-secondParagraph.textContent = "algun copypaste algun copypaste algun copypaste algun copypaste";
+firstParagraph.textContent = "La mejor Pizza de Italia";
+secondParagraph.textContent = "Pizzería en Rione Di Trastevere, Lazio, Italy";
 firstParagraph.classList.add("firstParagraph");
 secondParagraph.classList.add("secondParagraph");
 image.src = "../src/profile.jpg";
