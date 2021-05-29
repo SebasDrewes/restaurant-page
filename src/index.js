@@ -40,9 +40,16 @@ contactButton.addEventListener("click", () => {
 const dynamicZone = document.createElement("div");
 dynamicZone.classList.add("dynamicZone");
 
-const footerContent = document.createElement("p");
-footerContent.textContent = "Some footer content";
+const footerContent = document.createElement("div");
 footerContent.classList.add("footerContent")
+const footerText = document.createElement("p");
+footerText.textContent = "Hecho por SebasDrewes";
+const github = document.createElement("img");
+github.src = "../src/github.png"
+github.classList.add("github")
+github.addEventListener("click", () => {
+    window.open('https://github.com/SebasDrewes/', '_blank');
+})
 
 content.appendChild(header);
 header.appendChild(title);
@@ -53,6 +60,8 @@ buttonsDiv.appendChild(contactButton);
 content.appendChild(dynamicZone);
 content.appendChild(footer);
 footer.appendChild(footerContent);
+footerContent.appendChild(footerText);
+footerContent.appendChild(github);
 
 window.onload = function () {
     home();

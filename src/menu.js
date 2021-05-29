@@ -10,10 +10,13 @@ contactButton.style.cssText = "border-bottom: hidden";
         dynamicZone.removeChild(dynamicZone.firstChild);
     }
 
-    const menus = document.createElement("p");
+    const menus = document.createElement("img");
     menus.classList.add("menu");
-    menus.textContent = "some menus";
-    dynamicZone.appendChild(menus);
+    menus.src = "../src/menu.jpeg";
+    menus.addEventListener("click", () => {
+        menus.requestFullscreen();
+    })
 
+    dynamicZone.appendChild(menus);
 }
 export { menu };

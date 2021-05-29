@@ -11,14 +11,26 @@ const dynamicZone = document.querySelector(".dynamicZone");
 while (dynamicZone.firstChild) {
     dynamicZone.removeChild(dynamicZone.firstChild);
 }
+const inicio = document.createElement("div");
+inicio.classList.add("inicio");
+const firstParagraph = document.createElement("p");
+const secondParagraph = document.createElement("p");
 const image = document.createElement("img");
-const paragraph = document.createElement("p");
+image.classList.add("image");
+const thirdParagraph = document.createElement("p");
 
-image.src = "../src/image.jp";
-paragraph.textContent = "some copy about how wonderful the restaurant is";
-paragraph.classList.add("paragraph");
-dynamicZone.appendChild(image);
-dynamicZone.appendChild(paragraph);
+firstParagraph.textContent = "La mejor pizza de Italia";
+secondParagraph.textContent = "algun copypaste algun copypaste algun copypaste algun copypaste";
+firstParagraph.classList.add("firstParagraph");
+secondParagraph.classList.add("secondParagraph");
+image.src = "../src/profile.jpg";
+thirdParagraph.textContent = "Pedi online o visitanos!";
+thirdParagraph.classList.add("thirdParagraph");
+dynamicZone.appendChild(inicio);
+inicio.appendChild(firstParagraph);
+inicio.appendChild(secondParagraph);
+inicio.appendChild(image);
+inicio.appendChild(thirdParagraph);
 
 }
 export {home}
