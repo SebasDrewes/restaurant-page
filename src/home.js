@@ -19,7 +19,7 @@ const image = document.createElement("img");
 image.classList.add("image");
 const thirdParagraph = document.createElement("p");
 
-firstParagraph.textContent = "La mejor Pizza de Italia";
+firstParagraph.textContent = "La mejor Pizza de Roma";
 secondParagraph.textContent = "Pizzería en Rione Di Trastevere, Lazio, Italy";
 firstParagraph.classList.add("firstParagraph");
 secondParagraph.classList.add("secondParagraph");

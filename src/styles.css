@@ -109,7 +109,7 @@ font-family: "Tangerine", cursive;
 }
 .menu {
     animation: fadeIn 2s;
-    margin: 5vh;
+    margin: 5%;
     width: 90%;
     height: auto;
     cursor: pointer;
