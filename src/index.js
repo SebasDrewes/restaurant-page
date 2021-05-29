@@ -45,7 +45,7 @@ footerContent.classList.add("footerContent")
 const footerText = document.createElement("p");
 footerText.textContent = "Hecho por SebasDrewes";
 const github = document.createElement("img");
-github.src = "../src/github.png"
+github.src = "img/github.png"
 github.classList.add("github")
 github.addEventListener("click", () => {
     window.open('https://github.com/SebasDrewes/', '_blank');

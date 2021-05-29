@@ -23,7 +23,7 @@ firstParagraph.textContent = "La mejor Pizza de Roma";
 secondParagraph.textContent = "Pizzería en Rione Di Trastevere, Lazio, Italy";
 firstParagraph.classList.add("firstParagraph");
 secondParagraph.classList.add("secondParagraph");
-image.src = "../src/profile.jpg";
+image.src = "img/profile.jpg";
 thirdParagraph.textContent = "Pedi online o visitanos!";
 thirdParagraph.classList.add("thirdParagraph");
 dynamicZone.appendChild(inicio);

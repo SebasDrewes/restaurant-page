@@ -12,7 +12,7 @@ contactButton.style.cssText = "border-bottom: hidden";
 
     const menus = document.createElement("img");
     menus.classList.add("menu");
-    menus.src = "../src/menu.jpeg";
+    menus.src = "img/menu.jpeg";
     menus.addEventListener("click", () => {
         menus.requestFullscreen();
     })
