@@ -1,4 +1,4 @@
-import{loadFrontPage} from "./frontPage"
+import{home} from "./home"
 import{menu} from "./menu"
 import{contact} from "./contact"
 
@@ -13,12 +13,14 @@ const title = document.createElement("h1");
 title.classList.add("title");
 title.textContent = "Pizzeria";
 
+const buttonsDiv = document.createElement("div");
+buttonsDiv.classList.add("buttonsDiv");
 
-const loadFrontPageButton = document.createElement("button");
-loadFrontPageButton.textContent = "Home";
-loadFrontPageButton.classList.add("loadFrontPageButton");
-loadFrontPageButton.addEventListener("click", () => {
-    loadFrontPage();
+const inicio = document.createElement("button");
+inicio.textContent = "Inicio";
+inicio.classList.add("inicioButton");
+inicio.addEventListener("click", () => {
+    home();
 })
 
 const menuButton = document.createElement("button");
@@ -44,13 +46,14 @@ footerContent.classList.add("footerContent")
 
 content.appendChild(header);
 header.appendChild(title);
-header.appendChild(loadFrontPageButton);
-header.appendChild(menuButton);
-header.appendChild(contactButton);
+header.appendChild(buttonsDiv);
+buttonsDiv.appendChild(inicio);
+buttonsDiv.appendChild(menuButton);
+buttonsDiv.appendChild(contactButton);
 content.appendChild(dynamicZone);
 content.appendChild(footer);
 footer.appendChild(footerContent);
 
 window.onload = function () {
-    loadFrontPage();
+    home();
 }
