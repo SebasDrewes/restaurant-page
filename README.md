@@ -1,5 +1,7 @@
 # restaurant-page
-Restaurant/pizzeria webside-template hecho con vanilla Javascript y css
+![image](https://user-images.githubusercontent.com/81722772/121595095-4fafa580-ca14-11eb-9b4d-4a4e6fbe8e86.png)
+
+Restaurant/pizzeria webside-template hecho con vanilla Javascript y CSS, manteniendo un diseño Responsive.
 
 Realizado segun lo requerido en el proyecto: https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page
 
