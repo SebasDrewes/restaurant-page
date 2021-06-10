@@ -1,5 +1,5 @@
 # restaurant-page
-![image](https://user-images.githubusercontent.com/81722772/121594951-1d05ad00-ca14-11eb-8e20-7e9b47033643.png)
+![image](https://user-images.githubusercontent.com/81722772/121595021-3870b800-ca14-11eb-97c1-cc76073d022b.png)
 
 Restaurant/pizzeria webside-template hecho con vanilla Javascript y CSS, manteniendo un diseño Responsive.
 
